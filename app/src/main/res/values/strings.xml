@@ -1,0 +1,157 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="config_name">Config Name</string>
+    <string name="poor_score">Poor Score</string>
+    <string name="great_score">Great Score</string>
+    <string name="preview">Preview</string>
+    <string name="save">Save</string>
+    <string name="confirm_dialog_message">Are you sure you want to delete your config?</string>
+    <string name="confirm_dialog_title">Delete Config?</string>
+    <string name="confirm">OK</string>
+    <string name="name">Name</string>
+    <string name="points">Points</string>
+    <string name="blank_field">-</string>
+    <string name="number_of_players">Number of players</string>
+    <string name="achievementsTitle">Achievements</string>
+    <string name="add_game_title">Add Game</string>
+    <string name="you_got">"You got "</string>
+    <string name="exclamation">!</string>
+    <string name="addEmptyMsgforCamera">Can not take photo. One or more fields are empty.</string>
+    <string name="addEmptyMsg">Could not save. One or more fields are empty.</string>
+    <string name="confirmDialogPicture">"Are you sure you don't want to add a photo?"</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="configsEmptyStateMsg">Oh... seems like there arent any game configurations yet. Tap the + icon to add one!</string>
+    <string name="gamesEmptyStateMsg">No games to show. Tap the + icon to add one!</string>
+    <string name="score">Score</string>
+    <string name="total_players">Total Players</string>
+    <string name="addConfigTitle">Add Configuration</string>
+    <string name="editConfigTitle">"Edit "</string>
+    <string name="viewConfigsTitle">Configurations</string>
+    <string name="players">" players"</string>
+    <string name="poor_score_colon">"Poor Score: "</string>
+    <string name="good_score_colon">"Good Score: "</string>
+    <string name="score_colon">"Score: "</string>
+    <string-array name="theme_fitness_names">
+        <item>Natural Selected</item>
+        <item>Casual Walker</item>
+        <item>Treadmill Treader</item>
+        <item>Mountain Explorer</item>
+        <item>Pushup Spammer</item>
+        <item>Gym-bro Cadet</item>
+        <item>Bench Spammer</item>
+        <item>Steroid Sniffer</item>
+        <item>The Grand Gymmer</item>
+    </string-array>
+    <string-array name="theme_starwars_names">
+        <item>Jabba the Hut</item>
+        <item>Clone Cadet</item>
+        <item>The Younglings</item>
+        <item>Midshipmans</item>
+        <item>Padawans</item>
+        <item>Jedi Knight</item>
+        <item>Supreme Commander</item>
+        <item>Freedom Fighters</item>
+        <item>Grand Admiral</item>
+    </string-array>
+    <string-array name="theme_spongebob_names">
+        <item>Tattletale Strangler</item>
+        <item>Crusty Crab</item>
+        <item>Naughty Plankton</item>
+        <item>Grumpy Squidward</item>
+        <item>Strong Larry</item>
+        <item>Jolly Patrick</item>
+        <item>Gleeful Garry</item>
+        <item>Spongy Bob</item>
+        <item>Delicious Krabby Patty</item>
+    </string-array>
+    <string name="starWarsLvl0">Jabba the Hut</string>
+    <string name="fitnessLvl0">Natural Selected</string>
+    <string name="spongeBobLvl0">Tattletale Strangler</string>
+    <string name="star_wars_theme">Star Wars Theme</string>
+    <string name="fitness_theme">Fitness Theme</string>
+    <string name="sponge_bob_theme">Sponge Bob Theme</string>
+    <string name="theme_instructions">Click on the Icon of the theme that you like!</string>
+    <string name="spong_bob_title">SpongeBob</string>
+    <string name="fitness_title">Fitness</string>
+    <string name="star_wars_title">Star Wars</string>
+    <string name="title_settings">Settings</string>
+    <string name="difficulty_easy">Easy</string>
+    <string name="difficulty_normal">Normal</string>
+    <string name="difficulty_hard">Hard</string>
+    <string name="score_equals_zero">Score: 0</string>
+    <string name="score_num">Score #</string>
+    <string name="input_less_message">Please input a number of 25 or lower</string>
+    <string name="edit_game_title">Edit Game</string>
+    <string name="you_got_text">You got</string>
+    <string name="theme_setting">Theme Setting</string>
+    <string name="you_were_n_from">You were \n from</string>
+    <string name="nextachieve">nextAchieve</string>
+    <string name="title_about">About</string>
+    <string name="tab_title_developers">Developer</string>
+    <string name="tab_title_resources">Resources</string>
+    <string name="tab_title_help">Help</string>
+    <string name="groupName">Aluminium</string>
+    <string name="memberNames"><![CDATA[<Developers>\n\t\t\t<Member = \"Divesh\" />\n\t\t\t<Member = \"Kiarash\" />\n\t\t\t<Member = \"Maria\" />\n\t\t\t<Member = \"Peeyush\" />\n</Developers>]]></string>
+    <string name="help_title_gameConfig">Game configuration</string>
+    <string name="help_title_addGameConfig">- Adding a game configuration</string>
+    <string name="help_instruction_addGameConfig">1. Click on the settings button on the upper right of the screen to change theme\n2. Click on the add button in the bottom left of the screen\n3. Enter the configuration name, poor score and good score (scores are per player)\n4. Click save</string>
+    <string name="help_instruction_editGameConfig">1. Click on the edit button located to the right of the game configuration name\n2. Edit any of the three fields\n3. Click save</string>
+    <string name="help_title_editGameConfig">- Editing a game configuration</string>
+    <string name="help_instruction_deleteGameConfig">1. Click on the delete button located to the right of the game configuration name\n2. Click ok</string>
+    <string name="help_title_viewAchievement">- Viewing an achievement</string>
+    <string name="help_instruction_viewAchievement">1. Click on the trophy button located to the right of the game configuration name\n2. Enter the amount of players playing</string>
+    <string name="help_title_gamePlay">Game play</string>
+    <string name="help_title_addGamePlay">- Adding a game play</string>
+    <string name="help_instruction_addGamePlay">1. Click on the game configuration to add a game to\n2. Click on the add button in the bottom left of the screen\n3. Choose the difficulty\n4. Enter the amount of players playing\n5. Enter the score per player\n6. Click the save button on the upper right of the screen\n7. Take a picture\n8. Click ok</string>
+    <string name="help_title_editGamePlay">- Editing a game play</string>
+    <string name="help_instruction_editGamePlay">1. Click on the game itself\n2. Edit any of the fields\n3. Repeat steps 6-8 in \"Adding a game play\"</string>
+    <string name="help_title_deleteGameConfig">- Deleting a game configuration</string>
+    <string name="default_player_count">3</string>
+    <string name="default_score_zero">0</string>
+    <string name="highest_achievement">You got the highest achievement possible!!!</string>
+    <string name="you_were">"You were "</string>
+    <string name="points_away_from">" points away from "</string>
+    <string name="congratulations_message">Congratulations!</string>
+    <string name="add_config_photo_caption">What does your game look like? Tap the image to take a photo!</string>
+    <string name="config_photo_caption">"Photo for "</string>
+    <string name="camera_permission_msg">Camera permission required to use Camera.</string>
+    <string name="achievementStats">Achievement Statistics</string>
+    <string name="achievementLevels">Achievement Levels</string>
+    <string name="resources_imagesTitle">Images</string>
+    <string name="resources_soundsTitle">Sounds</string>
+    <string name="resources_stars">1. Stars</string>
+    <string name="resources_starsLink">https://www.freepik.com/premium-vector/neumorphic-ui-ux-design-elements-3d-vector-yellow-stars-rating-system-white-background-abstract-neumorphism-material-design-star-icons-set-achievement-rank-scale-customer-product-rating-review_27250396.htm</string>
+    <string name="resources_starWarsBackground">2. StarWars Background</string>
+    <string name="resources_starWarsBackgroundLink">https://wallpapercave.com/star-wars-phone-wallpapers</string>
+    <string name="resources_fitnessBackground">3. Fitness Background</string>
+    <string name="resources_fitnessBackgroundLink">https://www.pinterest.ca/pin/155022412148238141/</string>
+    <string name="resources_spongeBobBackground">4. SpongeBob Background</string>
+    <string name="resources_SpongeBobBackgroundLink">https://www.peakpx.com/en/hd-wallpaper-desktop-nrvgi</string>
+    <string name="resources_settingsIcon">5. Settings Icon</string>
+    <string name="resources_settingsIconLink">https://www.iconfinder.com/icons/115801/settings_icon</string>
+    <string name="resources_garry">6. Garry</string>
+    <string name="resources_garryLink">https://www.pngegg.com/en/search?q=gary</string>
+    <string name="resources_Lightsaber">7. Lightsaber</string>
+    <string name="resources_lightsaberLink">https://www.nicepng.com/png/full/201-2013145_star-wars-lightsaber-png.png</string>
+    <string name="resources_defaultConfigPhoto">8. Default Config Photo</string>
+    <string name="resources_defaultConfigPhotoLink"><![CDATA[https://media.istockphoto.com/id/1086015802/vector/board-game-icons.jpg?s=612x612&w=0&k=20&c=KfgWqcgx879XbKj197R3oGmNh3nlbXqCAvXwfKJrWXg=]]></string>
+    <string name="resources_defaultGamePhoto">9. Default Game Photo</string>
+    <string name="resources_defaultGamePhotoLink">https://returntofreedom.org/store/wp-content/uploads/default-placeholder.png</string>
+    <string name="resources_achievementStatisticsIcon">10. Achievement Statistics Icon</string>
+    <string name="resources_achievementStatisticsIconLink"><![CDATA[https://www.flaticon.com/free-icon/bar-graph_2214523?term=chart&page=1&position=87&page=1&position=87&related_id=2214523&origin=search#]]></string>
+    <string name="resources_celebration">1. Celebration</string>
+    <string name="resources_celebrationLink">https://www.zapsplat.com/</string>
+    <string name="resources_barbell">11. Barbell</string>
+    <string name="resources_barbellLink">https://cdn-icons-png.flaticon.com/512/2917/2917719.png</string>
+    <string name="resources_fitnessThemeIcon">12. Fitness Theme Icon</string>
+    <string name="resources_fitnessThemeIconLink">https://depositphotos.com/vector-images/workout-icons.html</string>
+    <string name="resources_starWarsThemeIcon">13. StarWars Theme Icon</string>
+    <string name="resources_starWarsThemeIconLink">https://www.vectorstock.com/royalty-free-vector/star-wars-glyph-icon-pack-vector-21505033</string>
+    <string name="resources_spongeBobThemeIcon">14. SpongeBob Theme Icon</string>
+    <string name="resources_spongeBobThemeIconLink">https://vector.me/browse/223959/spongebob_squarepants_vector_pack_faces</string>
+    <string name="resources_developersBackgrund">15. Developers Page Background</string>
+    <string name="resources_developersBackgroundLink">https://wallpaper.dog/dark-purple-gradient-iphone-wallpapers</string>
+    <string name="resources_configEmptyState">16. Config Empty State</string>
+    <string name="resources_configEmptyStateLink">https://www.hongkiat.com/blog/mobile-app-empty-state-designs/</string>
+</resources>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".HelpFragment">
+
+        <!-- Add text to fragment -->
+
+        <TextView
+            android:id="@+id/gameConfigTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/font_main"
+            android:text="@string/help_title_gameConfig"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:autoSizeTextType="uniform"/>
+
+        <TextView
+            android:id="@+id/addGameConfigTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gameConfigTitle"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="3dp"
+            android:fontFamily="@font/font_main"
+            android:autoSizeTextType="uniform"
+            android:text="@string/help_title_addGameConfig"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/addGameConfigInstruction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/addGameConfigTitle"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="3dp"
+            android:fontFamily="@font/font_main"
+            android:text="@string/help_instruction_addGameConfig"
+            android:autoSizeTextType="uniform"/>
+
+        <TextView
+            android:id="@+id/editGameConfigInstruction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editGameConfigTitle"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="3dp"
+            android:fontFamily="@font/font_main"
+            android:text="@string/help_instruction_editGameConfig"
+            android:autoSizeTextType="uniform"/>
+
+        <TextView
+            android:id="@+id/editGameConfigTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/addGameConfigInstruction"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="3dp"
+            android:fontFamily="@font/font_main"
+            android:text="@string/help_title_editGameConfig"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:autoSizeTextType="uniform"/>
+
+        <TextView
+            android:id="@+id/deleteGameConfigInstruction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/deleteGameConfigTitle"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="3dp"
+            android:fontFamily="@font/font_main"
+            android:text="@string/help_instruction_deleteGameConfig"
+            android:autoSizeTextType="uniform"/>
+
+        <TextView
+            android:id="@+id/viewAchievementTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/deleteGameConfigInstruction"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="3dp"
+            android:fontFamily="@font/font_main"
+            android:text="@string/help_title_viewAchievement"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:autoSizeTextType="uniform"/>
+
+        <TextView
+            android:id="@+id/viewAchievementInstruction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/viewAchievementTitle"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="3dp"
+            android:fontFamily="@font/font_main"
+            android:text="@string/help_instruction_viewAchievement"
+            android:autoSizeTextType="uniform"/>
+        <TextView
+            android:id="@+id/gamePlayTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/viewAchievementInstruction"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="3dp"
+            android:fontFamily="@font/font_main"
+            android:text="@string/help_title_gamePlay"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:autoSizeTextType="uniform" />
+
+        <TextView
+            android:id="@+id/addGamePlayTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gamePlayTitle"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="3dp"
+            android:fontFamily="@font/font_main"
+            android:text="@string/help_title_addGamePlay"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:autoSizeTextType="uniform" />
+
+        <TextView
+            android:id="@+id/addGamePlayInstruction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/addGamePlayTitle"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="3dp"
+            android:fontFamily="@font/font_main"
+            android:text="@string/help_instruction_addGamePlay"
+            android:autoSizeTextType="uniform" />
+
+        <TextView
+            android:id="@+id/editGamePlayTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/addGamePlayInstruction"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="3dp"
+            android:fontFamily="@font/font_main"
+            android:text="@string/help_title_editGamePlay"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:autoSizeTextType="uniform"/>
+
+        <TextView
+            android:id="@+id/editGamePlayInstruction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editGamePlayTitle"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="3dp"
+            android:fontFamily="@font/font_main"
+            android:text="@string/help_instruction_editGamePlay"
+            android:autoSizeTextType="uniform" />
+
+        <TextView
+            android:id="@+id/deleteGameConfigTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editGameConfigInstruction"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="3dp"
+            android:fontFamily="@font/font_main"
+            android:text="@string/help_title_deleteGameConfig"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:autoSizeTextType="uniform" />
+    </RelativeLayout>
+</ScrollView>
